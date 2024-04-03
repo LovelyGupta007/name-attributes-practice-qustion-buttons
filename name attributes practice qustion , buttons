@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>name attributes practice qustion , buttons</title>
+</head>
+<body>
+  <form action="/server">
+    <input type="checkbox" id="age" name="age" checked>
+    <label for="age">i am 18+</label>
+    <div>
+      <input type="radio" name="fruit" id="apple" value="apple">
+      <label for="apple"> apple</label>
+      <input type="radio" name="fruit 2" id="mango" value="mango">
+      <label for="mango"> mango</label>
+      <input type="radio" name="fruit 3" id="banana" value="banana">
+      <label for="banana"> banana</label>
+      <input type="radio" name="fruit 4" id="litchi" value="litchi">
+      <label for="litchi"> litchi</label>
+    </div>
+    <br>
+    <div>
+      choose your subjects:
+    <input type="checkbox" id="math" name="subjects" value="math">
+      <label for="math">math</label>
+      <input type="checkbox" id="science" name="subjects" value="science">
+    <label for="science">science</label>
+    <input type="checkbox" id="biology" name="subjects" value="biology" >
+    <label for="biology">biology</label>
+
+
+
+
+    </div>
+    <button>submit</button>
+
+
+
+  </form>
+</body>
+</html>
